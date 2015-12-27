@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    >
+
+    <EditText
+        android:shadowColor="@color/material_blue_grey_900"
+        android:id="@+id/new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:hint="Enter Name ...">
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/new_IP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:hint="Enter IP ...">
+
+        <requestFocus />
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/new_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:hint="Enter Level ...">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:layout_marginTop="80dp"
+        android:id="@+id/addPr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ADD" />
+
+</LinearLayout>
